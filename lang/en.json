@@ -7,6 +7,7 @@
         "title": "Footer Start",
         "brands": "Popular Brands",
         "navigate": "Navigate",
+        "connect": "Connect",
         "info": "Info",
         "categories": "Categories",
         "call_us": "Call us at {phone_number}",
@@ -159,8 +160,8 @@
         "and": "and",
         "compare": "Compare",
         "change": "Change",
-        "sign_up": "Register",
-        "login": "Sign in",
+        "sign_up": "Join Now",
+        "login": "Log in",
         "logout": "Sign out",
         "account": "Account",
         "cart": "Cart",
@@ -355,10 +356,10 @@
                 "download_items": "Download Items",
                 "card_ending": "ending in {card}",
                 "shipments": {
-                  "date": "Date Shipped",
-                  "method": "Shipping Method",
-                  "link": "Tracking Link",
-                  "header": "Shipping Details"
+                    "date": "Date Shipped",
+                    "method": "Shipping Method",
+                    "link": "Tracking Link",
+                    "header": "Shipping Details"
                 },
                 "actions": "Actions",
                 "reorder": "Reorder",
@@ -400,14 +401,14 @@
             },
             "paypal": "PayPal",
             "billing_address_labels": {
-              "address_line_1": "Address Line 1",
-              "address_line_2": "Address Line 2",
-              "suburb_city": "Suburb/City",
-              "state_province": "State/Province",
-              "choose_state": "Choose a State",
-              "country": "Country",
-              "choose_country": "Choose a Country",
-              "zip_postcode": "Zip/Postcode"
+                "address_line_1": "Address Line 1",
+                "address_line_2": "Address Line 2",
+                "suburb_city": "Suburb/City",
+                "state_province": "State/Province",
+                "choose_state": "Choose a State",
+                "country": "Country",
+                "choose_country": "Choose a Country",
+                "zip_postcode": "Zip/Postcode"
             }
         },
         "returns": {
@@ -548,7 +549,6 @@
             },
             "edit": {
                 "heading": "Update Address"
-
             },
             "confirm_delete": "Are you sure you want to delete this address?",
             "submit_value": "Save Address"
@@ -813,8 +813,8 @@
         "comments": "Comments"
     },
     "newsletter": {
-        "subscribe": "Subscribe to our newsletter",
-        "subscribe_intro": "Get the latest updates on new products and upcoming sales",
+        "subscribe": "Sign Up",
+        "subscribe_intro": "If you’re a spirits enthusiast or just someone who appreciates a good cocktail, there’s no reason not to see how Spirits Network can help you drink better.",
         "subscribe_submit": "Subscribe",
         "email_placeholder": "Your email address",
         "subscribed_heading": "Thanks for Subscribing!",

@@ -1,7 +1,9 @@
+<!-- *** Updated Form Action Link, Updated button id *** -->
+
 <h3 class="footer-info-heading">{{lang 'newsletter.subscribe'}}</h3>
 <p>{{lang 'newsletter.subscribe_intro'}}</p>
 
-<form class="form" action="{{urls.subscribe.action}}" method="post">
+<form class="form" action="https://store.spiritsnetwork.com/subscribe.php" method="post">
     <fieldset class="form-fieldset">
         <input type="hidden" name="action" value="subscribe">
         <input type="hidden" name="nl_first_name" value="bc">
@@ -19,12 +21,13 @@
                        aria-required="true"
                 >
                 <input class="button button--primary form-prefixPostfix-button--postfix"
+                       id="nl_btn"
                        type="submit"
                        value="{{lang 'newsletter.subscribe_submit'}}"
                 >
             </div>
             {{#if settings.show_newsletter_summary }}
-                <div class="footer-newsletter-summary">{{settings.newsletter_summary}}</div>
+            <div class="footer-newsletter-summary">{{settings.newsletter_summary}}</div>
             {{/if}}
         </div>
     </fieldset>

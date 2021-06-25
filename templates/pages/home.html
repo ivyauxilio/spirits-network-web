@@ -43,3 +43,19 @@ blog:
 </div>
 {{/partial}}
 {{> layout/base}}
+
+<!-- *** Home Page Customer Header + Footer *** -->
+
+<script type="text/javascript">
+    if(document.location.pathname === "/"){
+        let _header = document.getElementById("header-main");
+        _header.classList.add("home-header");
+        let _body = document.getElementById("main-content");
+        _body.classList.add("home-body");
+        let _page = document.getElementById("page-content");
+        _page.classList.add("page-home");
+        let _headerTop = document.getElementById("header-top");
+        _headerTop.classList.add("header-top-home");
+    }
+
+</script>
